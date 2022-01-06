@@ -1,0 +1,127 @@
+.nav {
+  font-family: "Karla", sans-serif;
+}
+.nav ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 700px) {
+  .nav ul {
+    display: none;
+  }
+}
+.nav ul.show {
+  display: block !important;
+}
+@media screen and (max-width: 700px) {
+  .nav ul {
+    position: fixed;
+    flex-direction: column;
+    background-color: #ded8d2;
+    top: 0;
+    height: calc((var(--vh, 1vh) * 100) - 60px);
+    min-width: 200px;
+    z-index: 100;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right: 2px solid #020202;
+    outline: 10px solid #ded8d2;
+  }
+}
+.nav ul a {
+  color: #020202;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  display: block;
+  transition: color 0.2s, background-color 0.2s;
+}
+.nav ul a:hover {
+  color: #ded8d2;
+  background-color: #020202;
+}
+.nav ul .home {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav ul .mainlist {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+@media screen and (max-width: 700px) {
+  .nav ul .mainlist {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 930px) {
+  .nav ul .mainlist {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .nav ul .mainlist {
+    gap: 10px;
+  }
+}
+.nav ul .mainlist .usecases a {
+  margin: 3px 0px;
+}
+.nav ul .mainlist .usecases .usecases__content {
+  z-index: 4;
+  background: #ded8d2;
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid #020202;
+  outline: 3px solid #ded8d2;
+}
+.nav ul .mainlist .usecases:hover .usecases__content {
+  display: flex;
+}
+.nav ul .cta a {
+  background: #020202;
+  padding: 10px 15px;
+  color: #ded8d2;
+  font-weight: 200;
+}
+.nav ul .cta a:hover {
+  background: #353535;
+  color: #ded8d2;
+}
+.nav .hamburger {
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 0;
+  cursor: pointer;
+  z-index: 15;
+}
+@media screen and (min-width: 701px) {
+  .nav .hamburger {
+    display: none;
+  }
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  background: #020202;
+  border-radius: 50%;
+}

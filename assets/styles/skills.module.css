@@ -1,0 +1,56 @@
+.skills {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 10px;
+}
+@media screen and (max-width: 800px) {
+  .skills {
+    flex-direction: column;
+    max-width: 600px;
+  }
+}
+.skills .feature::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 8px;
+  background-color: #020202;
+}
+.skills h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+.skills p {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+.skills .skillsList .skill {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.skills .skillsList .skill:hover {
+  background-color: #020202;
+  color: #ded8d2;
+}
+.skills .skillsList .skill:hover img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+.skills .skillsList .skill div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.skills .skillsList .skill div p {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+}

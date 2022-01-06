@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../assets/styles/header.module.less";
+import styles from "../assets/styles/header.module.css";
 import play from "../assets/icons/play.svg";
 import Code from "../components/json-preview";
 import Typing from "react-typing-animation";
@@ -47,10 +47,10 @@ export default function Header() {
           </p>
           <div className={styles.cta}>
             <div className={styles.start}>
-              <Link href="/">About me</Link>
+              <Link href="#projects">Projects</Link>
             </div>
             <div className={styles.pitch}>
-              <Link href="/">Skillset</Link>
+              <Link href="#skills">Skillset</Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import styles from "../assets/styles/skills.module.less";
+import styles from "../assets/styles/skills.module.css";
 import { useState } from "react";
 
 export default function Skills() {

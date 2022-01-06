@@ -1,4 +1,4 @@
-import styles from "../assets/styles/contact.module.less";
+import styles from "../assets/styles/contact.module.css";
 import { useState } from "react";
 
 export default function contact() {

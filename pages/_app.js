@@ -1,5 +1,5 @@
-import "../assets/styles/globals.less";
-import banner from "../assets/styles/banner.module.less";
+import "../assets/styles/globals.css";
+import banner from "../assets/styles/banner.module.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (

@@ -1,4 +1,4 @@
-import styles from "../assets/styles/projects.module.less";
+import styles from "../assets/styles/projects.module.css";
 import { useState } from "react";
 import Icon from "@icons-pack/react-simple-icons";
 import Image from "next/image";
@@ -28,7 +28,7 @@ export default function Projects() {
         "kubernetes",
         "mongodb",
         "deno",
-        "apple",
+        "ios",
         "android",
         "digitalocean",
       ],

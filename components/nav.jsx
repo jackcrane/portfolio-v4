@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../assets/styles/nav.module.less";
+import styles from "../assets/styles/nav.module.css";
 import { useEffect, useRef } from "react";
 
 export default function Header() {

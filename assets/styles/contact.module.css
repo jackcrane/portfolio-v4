@@ -1,0 +1,62 @@
+.contacts {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 10px;
+}
+@media screen and (max-width: 800px) {
+  .contacts {
+    flex-direction: column;
+    max-width: 600px;
+  }
+}
+.contacts .feature::before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 8px;
+  background-color: #020202;
+}
+.contacts h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+.contacts p {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+.contacts .contactsList .contact {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.contacts .contactsList .contact a {
+  color: #020202;
+}
+.contacts .contactsList .contact:hover {
+  background-color: #020202;
+  color: #ded8d2;
+}
+.contacts .contactsList .contact:hover a {
+  color: #ded8d2;
+}
+.contacts .contactsList .contact:hover img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+.contacts .contactsList .contact div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.contacts .contactsList .contact div p {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+}

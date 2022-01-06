@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 20px;
+  margin-bottom: 25vh;
+  background-color: #ded8d2;
+  overscroll-behavior-y: none;
+}
+body ::selection {
+  background: #020202;
+  color: #ded8d2;
+}
+body ::-moz-selection {
+  background: #020202;
+  color: #ded8d2;
+}
+.tab {
+  width: 20px;
+}
