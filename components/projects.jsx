@@ -190,7 +190,7 @@ export default function Projects() {
       description:
         "My current personal website in hopes of sharing a little snippet into my life and passions!",
       links: [],
-      stack: ["react", "javascript", "nextdotjs", "html5", "lessd"],
+      stack: ["react", "javascript", "nextdotjs", "html5", "less"],
     },
   ]);
 
