@@ -4,7 +4,7 @@ import styles from "../assets/styles/header.module.css";
 import play from "../assets/icons/play.svg";
 import Code from "../components/json-preview";
 import Typing from "react-typing-animation";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Header() {
   const jsonp = useRef(null);

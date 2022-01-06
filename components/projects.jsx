@@ -1,12 +1,7 @@
 import styles from "../assets/styles/projects.module.css";
-import { useState } from "react";
-import Icon from "@icons-pack/react-simple-icons";
-import Image from "next/image";
-
-import jv from "../assets/images/jv.png";
 
 export default function Projects() {
-  const [projects, setProjects] = useState([
+  const projects = [
     {
       name: "Ski Perfect North Slopes",
       subtitle: "Active Project",
@@ -192,7 +187,7 @@ export default function Projects() {
       links: [],
       stack: ["react", "javascript", "nextdotjs", "html5", "less"],
     },
-  ]);
+  ];
 
   return (
     <div className={styles.projects} id="projects">
@@ -217,6 +212,7 @@ export default function Projects() {
                   height="24"
                   width="24"
                   key={i}
+                  alt={tech}
                   src={`https://unpkg.com/simple-icons@v6/icons/${tech}.svg`}
                 />
               ))}

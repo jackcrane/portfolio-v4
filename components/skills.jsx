@@ -1,8 +1,7 @@
 import styles from "../assets/styles/skills.module.css";
-import { useState } from "react";
 
 export default function Skills() {
-  const [skills, setSkills] = useState([
+  const skills = [
     {
       name: "Javascript",
       slug: "javascript",
@@ -75,7 +74,7 @@ export default function Skills() {
       name: "LESS",
       slug: "less",
     },
-  ]);
+  ];
 
   return (
     <div className={styles.skills} id="skills">
@@ -90,6 +89,7 @@ export default function Skills() {
                   height="24"
                   width="24"
                   key={i}
+                  alt={skill.slug}
                   src={`https://unpkg.com/simple-icons@v6/icons/${skill.slug}.svg`}
                 />
                 <p>{skill.name}</p>

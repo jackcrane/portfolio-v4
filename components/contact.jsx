@@ -1,8 +1,7 @@
 import styles from "../assets/styles/contact.module.css";
-import { useState } from "react";
 
-export default function contact() {
-  const [contacts, setContacts] = useState([
+export default function Contact() {
+  const contacts = [
     {
       username: "jbcrane22",
       slug: "snapchat",
@@ -41,7 +40,7 @@ export default function contact() {
       slug: "gmail",
       url: "mailto:jack@jackcrane.rocks",
     },
-  ]);
+  ];
 
   return (
     <div className={styles.contacts} id="contacts">
@@ -58,6 +57,7 @@ export default function contact() {
                       height="24"
                       width="24"
                       key={i}
+                      alt={contact.slug}
                       src={`https://unpkg.com/simple-icons@v6/icons/${contact.slug}.svg`}
                     />
                     <p>{contact.username}</p>
@@ -69,6 +69,7 @@ export default function contact() {
                     height="24"
                     width="24"
                     key={i}
+                    alt={contact.slug}
                     src={`https://unpkg.com/simple-icons@v6/icons/${contact.slug}.svg`}
                   />
                   <p>{contact.username}</p>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "../assets/styles/nav.module.css";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Header() {
   const menu = useRef(null);
