@@ -43,7 +43,7 @@ export default function Contact() {
   ];
 
   return (
-    <div className={styles.contacts} id="contacts">
+    <div className={styles.contacts} id="contact">
       <div className={styles.feature}>
         <h1>Contact Me</h1>
         <br />
