@@ -56,8 +56,8 @@
   padding: 10px;
   display: inline-block;
 }
-.projects .project .text .stack img {
-  margin: 0 5px;
+.projects .project .text .stack span {
+  margin: 0 2.5px !important;
 }
 .projects .project .text .links {
   margin-top: 1em;

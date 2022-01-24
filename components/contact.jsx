@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../assets/styles/contact.module.css";
 
 export default function Contact() {
@@ -31,11 +32,6 @@ export default function Contact() {
       slug: "discord",
     },
     {
-      username: "jackbcrane",
-      slug: "linkedin",
-      url: "https://www.linkedin.com/in/jackbcrane/",
-    },
-    {
       username: "jack@jackcrane.rocks",
       slug: "gmail",
       url: "mailto:jack@jackcrane.rocks",
@@ -53,7 +49,7 @@ export default function Contact() {
               {contact.url ? (
                 <a href={contact.url} target="_blank" rel="noopener noreferrer">
                   <div>
-                    <img
+                    <Image
                       height="24"
                       width="24"
                       key={i}
@@ -65,7 +61,7 @@ export default function Contact() {
                 </a>
               ) : (
                 <div>
-                  <img
+                  <Image
                     height="24"
                     width="24"
                     key={i}

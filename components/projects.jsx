@@ -1,4 +1,5 @@
 import styles from "../assets/styles/projects.module.css";
+import Image from "next/image";
 
 export default function Projects() {
   const projects = [
@@ -27,6 +28,24 @@ export default function Projects() {
         "android",
         "digitalocean",
       ],
+    },
+    {
+      name: "Robot",
+      subtitle: "Active Project",
+      image: "/images/scdr.png",
+      description:
+        "I am the captain of my high school robotics team, here is the robot that I led the construction of, as well as created the CAD model.",
+      links: [
+        {
+          title: "OnShape",
+          url: "http://go.scdrobotics.org/pZhFyN",
+        },
+        {
+          title: "Writeup",
+          url: "http://go.scdrobotics.org/1PE1zH",
+        },
+      ],
+      stack: ["first"],
     },
     {
       name: "JVerify",
@@ -208,13 +227,14 @@ export default function Projects() {
             <p>{project.description}</p>
             <div className={styles.stack}>
               {project.stack.map((tech, i) => (
-                <img
+                <Image
                   height="24"
                   width="24"
                   key={i}
                   alt={tech}
                   src={`https://unpkg.com/simple-icons@v6/icons/${tech}.svg`}
                 />
+                // <></>
               ))}
             </div>
             <div className={styles.links}>

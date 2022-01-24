@@ -1,4 +1,5 @@
 import styles from "../assets/styles/skills.module.css";
+import Image from "next/image";
 
 export default function Skills() {
   const skills = [
@@ -74,6 +75,94 @@ export default function Skills() {
       name: "LESS",
       slug: "less",
     },
+    {
+      name: "Affinity Designer",
+      slug: "affinitydesigner",
+    },
+    {
+      name: "CouchDB",
+      slug: "apachecouchdb",
+    },
+    {
+      name: "Atom",
+      slug: "atom",
+    },
+    {
+      name: "Cloudflare",
+      slug: "cloudflare",
+    },
+    {
+      name: "Debian",
+      slug: "debian",
+    },
+    {
+      name: "FIRST",
+      slug: "first",
+    },
+    {
+      name: "GitHub",
+      slug: "github",
+    },
+    {
+      name: "GitHub Pages",
+      slug: "githubpages",
+    },
+    {
+      name: "Bash",
+      slug: "gnubash",
+    },
+    {
+      name: "Heroku",
+      slug: "heroku",
+    },
+    {
+      name: "Jekyll",
+      slug: "jekyll",
+    },
+    {
+      name: "MacOS",
+      slug: "macos",
+    },
+    {
+      name: "Makerbot",
+      slug: "makerbot",
+    },
+    {
+      name: "Markdown",
+      slug: "markdown",
+    },
+    {
+      name: "Microsoft Office",
+      slug: "microsoftoffice",
+    },
+    {
+      name: "Namebase",
+      slug: "namebase",
+    },
+    {
+      name: "Prettier",
+      slug: "prettier",
+    },
+    {
+      name: "Puppeteer",
+      slug: "puppeteer",
+    },
+    {
+      name: "Sentry",
+      slug: "sentry",
+    },
+    {
+      name: "Slack",
+      slug: "slack",
+    },
+    {
+      name: "Stripe",
+      slug: "stripe",
+    },
+    {
+      name: "Visual Studio Code",
+      slug: "visualstudiocode",
+    },
   ];
 
   return (
@@ -85,7 +174,7 @@ export default function Skills() {
           {skills.map((skill, i) => (
             <div className={styles.skill} key={i}>
               <div>
-                <img
+                <Image
                   height="24"
                   width="24"
                   key={i}

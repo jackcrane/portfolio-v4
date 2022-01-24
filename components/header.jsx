@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../assets/styles/header.module.css";
-import play from "../assets/icons/play.svg";
 import Code from "../components/json-preview";
 import Typing from "react-typing-animation";
 import React, { useEffect, useRef } from "react";
@@ -43,7 +42,7 @@ export default function Header() {
             <h1 className={styles.main}>Jack Crane</h1>
           </Typing>
           <p className={styles.sub}>
-            Student, athlete, programmer, and proud robot nerd!
+            Student, athlete, programmer, engineer, and proud robot nerd!
           </p>
           <div className={styles.cta}>
             <div className={styles.start}>
