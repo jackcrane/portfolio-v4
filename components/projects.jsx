@@ -33,6 +33,7 @@ export default function Projects() {
       name: "Robot",
       subtitle: "Active Project",
       image: "/images/scdr.png",
+      transparent: true,
       description:
         "I am the captain of my high school robotics team, here is the robot that I led the construction of, as well as created the CAD model.",
       links: [
@@ -259,6 +260,9 @@ export default function Projects() {
             <img
               src={project.image}
               alt={project.name}
+              style={{
+                mixBlendMode: project.transparent ? "multiply" : "normal",
+              }}
               className={styles.screenshot}
             />
           </div>
