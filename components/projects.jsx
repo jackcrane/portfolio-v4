@@ -180,7 +180,12 @@ export default function Projects() {
       image: "/images/ftc.png",
       description:
         "FTC Explorer is a small app that allows users to search for FTC events and teams by name, location, or date.",
-      links: [],
+      links: [
+        {
+          title: "Testflight",
+          url: "https://testflight.apple.com/join/sfGnrpSd",
+        },
+      ],
       stack: ["react", "javascript", "expo", "ios"],
     },
     {

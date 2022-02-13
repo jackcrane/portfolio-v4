@@ -56,10 +56,6 @@ export default function Skills() {
       slug: "docker",
     },
     {
-      name: "Kubernetes",
-      slug: "kubernetes",
-    },
-    {
       name: "PHP",
       slug: "php",
     },
@@ -76,28 +72,12 @@ export default function Skills() {
       slug: "less",
     },
     {
-      name: "Affinity Designer",
-      slug: "affinitydesigner",
-    },
-    {
       name: "CouchDB",
       slug: "apachecouchdb",
     },
     {
-      name: "Atom",
-      slug: "atom",
-    },
-    {
-      name: "Cloudflare",
+      name: "Cloudflare Workers",
       slug: "cloudflare",
-    },
-    {
-      name: "Debian",
-      slug: "debian",
-    },
-    {
-      name: "FIRST",
-      slug: "first",
     },
     {
       name: "GitHub",
@@ -108,20 +88,8 @@ export default function Skills() {
       slug: "githubpages",
     },
     {
-      name: "Bash",
-      slug: "gnubash",
-    },
-    {
-      name: "Heroku",
-      slug: "heroku",
-    },
-    {
       name: "Jekyll",
       slug: "jekyll",
-    },
-    {
-      name: "MacOS",
-      slug: "macos",
     },
     {
       name: "Makerbot",
@@ -130,18 +98,6 @@ export default function Skills() {
     {
       name: "Markdown",
       slug: "markdown",
-    },
-    {
-      name: "Microsoft Office",
-      slug: "microsoftoffice",
-    },
-    {
-      name: "Namebase",
-      slug: "namebase",
-    },
-    {
-      name: "Prettier",
-      slug: "prettier",
     },
     {
       name: "Puppeteer",
@@ -154,14 +110,6 @@ export default function Skills() {
     {
       name: "Slack",
       slug: "slack",
-    },
-    {
-      name: "Stripe",
-      slug: "stripe",
-    },
-    {
-      name: "Visual Studio Code",
-      slug: "visualstudiocode",
     },
   ];
 
