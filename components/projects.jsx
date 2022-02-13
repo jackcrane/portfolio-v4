@@ -115,7 +115,7 @@ export default function Projects() {
       subtitle: "Active Project",
       image: "/images/t.png",
       description:
-        "A somewhat fun game for visitors to my GitHub profile and blog post to play",
+        "A somewhat fun game for visitors to my GitHub profile and blog post to play. This project won me the Cloudflare Summer Dev Challenge for my use of serverless functions",
       links: [
         {
           title: "Play Live",
