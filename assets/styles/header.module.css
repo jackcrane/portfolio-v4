@@ -98,6 +98,9 @@
   width: 100%;
   height: 70vh;
 }
+.header .preview .previewinside ::-webkit-scrollbar {
+  display: none;
+}
 .header .preview .previewinside .previewcode {
   grid-area: 2 / 2 / 8 / 8;
   background-color: #ded8d2;
