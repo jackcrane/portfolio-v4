@@ -17,7 +17,7 @@ export default function jsonPreview() {
       "description": "High School"
     },
     {
-      "school": "First Flight Academy & Lunken Flight Training Center",
+      "school": "Lunken Flight Training Center",
       "description": "Flight Training"
     }
   ],

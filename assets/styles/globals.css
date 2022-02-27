@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 20px;
+  margin: 0px;
   margin-bottom: 25vh;
   background-color: #ded8d2;
   overscroll-behavior-y: none;
@@ -14,6 +14,9 @@ body ::selection {
 body ::-moz-selection {
   background: #020202;
   color: #ded8d2;
+}
+.c {
+  margin: 20px;
 }
 .tab {
   width: 20px;

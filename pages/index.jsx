@@ -5,6 +5,7 @@ import Projects from "../components/projects";
 import Contact from "../components/contact";
 import Skills from "../components/skills";
 import Learning from "../components/learning";
+import Ukraine from "../components/ukraine";
 
 export default function Home() {
   return (
@@ -12,12 +13,15 @@ export default function Home() {
       <Head>
         <title>Jack Crane</title>
       </Head>
-      <Nav />
-      <Header />
-      <Projects />
-      <Skills />
-      <Learning />
-      <Contact />
+      <Ukraine />
+      <div class="c">
+        <Nav />
+        <Header />
+        <Projects />
+        <Skills />
+        <Learning />
+        <Contact />
+      </div>
     </>
   );
 }

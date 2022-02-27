@@ -88,8 +88,7 @@ export default function Header() {
                   <td>
                     High School at Summit Country Day School
                     <br />
-                    Flight Training at First Flight Aviation & Lunken Flight
-                    Training Center
+                    Flight Training at Lunken Flight Training Center
                     <br />
                   </td>
                 </div>
