@@ -14,7 +14,7 @@ export default function Home() {
         <title>Jack Crane</title>
       </Head>
       <Ukraine />
-      <div class="c">
+      <div className="c">
         <Nav />
         <Header />
         <Projects />
