@@ -238,6 +238,7 @@ export default function Projects() {
                   width="24"
                   key={i}
                   alt={tech}
+                  loading="eager"
                   src={`https://unpkg.com/simple-icons@v6/icons/${tech}.svg`}
                 />
                 // <></>

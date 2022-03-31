@@ -127,6 +127,7 @@ export default function Skills() {
                   width="24"
                   key={i}
                   alt={skill.slug}
+                  loading="eager"
                   src={`https://unpkg.com/simple-icons@v6/icons/${skill.slug}.svg`}
                 />
                 <p>{skill.name}</p>
