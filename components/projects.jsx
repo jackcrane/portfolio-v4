@@ -4,6 +4,48 @@ import Image from "next/image";
 export default function Projects() {
   const projects = [
     {
+      name: "Paddlefest App",
+      subtitle: "Active Project",
+      image: "/images/paddlefest.png",
+      description:
+        "Simple mobile app allowing event attendees to interact with Paddlefest, recieve notifications, see a schedule, and use a map",
+      links: [
+        {
+          title: "Blog Post",
+          url: "https://blog.jackcrane.rocks/2022/04/22/paddlefest-app.html",
+        },
+      ],
+      stack: [
+        "react",
+        "javascript",
+        "expo",
+        "nodedotjs",
+        "express",
+        "mongodb",
+        "kubernetes",
+        "digitalocean",
+        "amazons3",
+      ],
+    },
+    {
+      name: "Apple Music Presence",
+      subtitle: "Active Project",
+      image: "/images/amp.png",
+      description:
+        "A simple command-line app to allow Apple Music users to share the song, artist, and album cover they are listening to on Discord.",
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/jackcrane/apple-music-presence",
+        },
+        {
+          title: "Blog Post",
+          url: "https://blog.jackcrane.rocks/2022/05/02/apple-music-presence.html",
+        },
+      ],
+      stack: ["nodedotjs", "amazons3", "discord", "applemusic"],
+    },
+    {
       name: "Ski Perfect North Slopes",
       subtitle: "Active Project",
       image: "/images/pns.png",
