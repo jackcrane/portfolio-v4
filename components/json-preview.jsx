@@ -13,6 +13,10 @@ export default function jsonPreview() {
   "age": 18,
   "education": [
     {
+      "school": "Saint Louis University",
+      "description": "B.S. in Mechanical Engineering"
+    },
+    {
       "school": "Summit Country Day School",
       "description": "High School"
     },

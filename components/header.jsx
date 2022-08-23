@@ -86,6 +86,8 @@ export default function Header() {
                 <div className={styles.row}>
                   <td className={styles.label}>Education</td>
                   <td>
+                    College at Saint Louis University for Mechanical Engineering
+                    <br />
                     High School at Summit Country Day School
                     <br />
                     Flight Training at Lunken Flight Training Center
