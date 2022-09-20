@@ -39,14 +39,14 @@ export default function Skills() {
       name: "MySQL",
       slug: "mysql",
     },
-    {
-      name: "Twilio",
-      slug: "twilio",
-    },
-    {
-      name: "Stripe",
-      slug: "stripe",
-    },
+    // {
+    //   name: "Twilio",
+    //   slug: "twilio",
+    // },
+    // {
+    //   name: "Stripe",
+    //   slug: "stripe",
+    // },
     {
       name: "DigitalOcean",
       slug: "digitalocean",
@@ -71,10 +71,10 @@ export default function Skills() {
       name: "LESS",
       slug: "less",
     },
-    {
-      name: "CouchDB",
-      slug: "apachecouchdb",
-    },
+    // {
+    //   name: "CouchDB",
+    //   slug: "apachecouchdb",
+    // },
     {
       name: "Cloudflare Workers",
       slug: "cloudflare",
@@ -83,10 +83,10 @@ export default function Skills() {
       name: "GitHub",
       slug: "github",
     },
-    {
-      name: "GitHub Pages",
-      slug: "githubpages",
-    },
+    // {
+    //   name: "GitHub Pages",
+    //   slug: "githubpages",
+    // },
     {
       name: "Jekyll",
       slug: "jekyll",
@@ -103,14 +103,14 @@ export default function Skills() {
       name: "Puppeteer",
       slug: "puppeteer",
     },
-    {
-      name: "Sentry",
-      slug: "sentry",
-    },
-    {
-      name: "Slack",
-      slug: "slack",
-    },
+    // {
+    //   name: "Sentry",
+    //   slug: "sentry",
+    // },
+    // {
+    //   name: "Slack",
+    //   slug: "slack",
+    // },
   ];
 
   return (
