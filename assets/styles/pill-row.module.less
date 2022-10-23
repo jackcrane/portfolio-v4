@@ -1,0 +1,45 @@
+@import "variables";
+
+.pillrow {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  transform: scale(2) translateX(-5px);
+  animation: row 15s ease-in-out infinite;
+}
+
+.pillsystem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pill {
+  border-radius: 10px;
+  height: 10px;
+  background-color: darken(@background-color, 1%);
+  border: 1px solid darken(@background-color, 2%);
+}
+
+@keyframes row {
+  0% {
+    translate: -25% 0;
+    // transform: translateX(-25%);
+  }
+  50% {
+    // transform: translateX(0%);
+    translate: 25% 0;
+  }
+  100% {
+    translate: -25% 0;
+    // transform: translateX(0%);
+    // transform: translateX(-25%);
+
+  }
+}

@@ -4,6 +4,7 @@ import styles from "../assets/styles/header.module.css";
 import Code from "../components/json-preview";
 import Typing from "react-typing-animation";
 import React, { useEffect, useRef } from "react";
+import { PillSystem } from "./pill-system";
 
 export default function Header() {
   const jsonp = useRef(null);
@@ -36,6 +37,7 @@ export default function Header() {
 
   return (
     <div className={styles.header}>
+      <PillSystem />
       <main className={styles.text}>
         <div>
           <Typing speed={25}>
