@@ -42,7 +42,7 @@ export default function Header() {
             <h1 className={styles.main}>Jack Crane</h1>
           </Typing>
           <p className={styles.sub}>
-            Student, athlete, programmer, engineer, and proud robot nerd!
+            Student, programmer, engineer, and proud robot nerd!
           </p>
           <div className={styles.cta}>
             <div className={styles.start}>
@@ -97,8 +97,6 @@ export default function Header() {
                 <div className={styles.row}>
                   <td className={styles.label}>Dreams</td>
                   <td>
-                    Fly F-16s in the air force
-                    <br />
                     Become an engineer at a cutting-edge company
                     <br />
                     Start a business

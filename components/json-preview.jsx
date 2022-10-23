@@ -26,7 +26,6 @@ export default function jsonPreview() {
     }
   ],
   "dreams": [
-    "Fly f-16s in the air force",
     "Become an engineer at a cutting-edge company",
     "Start a business"
   ],
