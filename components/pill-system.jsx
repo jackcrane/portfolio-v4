@@ -8,7 +8,7 @@ const PillRow = () => {
   const [pillcount, setpillcount] = useState([]);
 
   return (
-    <div className={styles.pillrow} style={{animationDelay: `${Math.random()}s`}}>
+    <div className={styles.pillrow} style={{animationDelay: `${Math.random()}s`, animationDuration: `${Math.random() * (17 - 13) + 13}s`}}>
       {pillcount.map((_, i) => (
         <div style={{width: Math.random() * (70 - 30) + 30}} className={styles.pill} key={i} />
       ))}
