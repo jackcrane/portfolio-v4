@@ -1,10 +1,11 @@
 import "../assets/styles/globals.css";
-import Script from 'next/script';
+import "../assets/styles/icofont.css";
+import Script from "next/script";
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-    <Script
+      <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-MDY1XRG17G"
         strategy="afterInteractive"
       />

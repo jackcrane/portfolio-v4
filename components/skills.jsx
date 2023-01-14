@@ -1,5 +1,6 @@
 import styles from "../assets/styles/skills.module.css";
 import Image from "next/image";
+import Icon from "./Icon";
 
 export default function Skills() {
   const skills = [
@@ -122,14 +123,15 @@ export default function Skills() {
           {skills.map((skill, i) => (
             <div className={styles.skill} key={i}>
               <div>
-                <Image
+                {/* <Image
                   height="24"
                   width="24"
                   key={i}
                   alt={skill.slug}
                   loading="eager"
                   src={`https://unpkg.com/simple-icons@v6/icons/${skill.slug}.svg`}
-                />
+                /> */}
+                <Icon name={skill.slug} key={i} />
                 <p>{skill.name}</p>
               </div>
             </div>

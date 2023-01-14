@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../assets/styles/contact.module.css";
+import Icon from "./Icon";
 
 export default function Contact() {
   const contacts = [
@@ -49,13 +50,7 @@ export default function Contact() {
               {contact.url ? (
                 <a href={contact.url} target="_blank" rel="noopener noreferrer">
                   <div>
-                    <Image
-                      height="24"
-                      width="24"
-                      key={i}
-                      alt={contact.slug}
-                      src={`https://unpkg.com/simple-icons@v6/icons/${contact.slug}.svg`}
-                    />
+                    <Icon name={contact.slug} key={i} />
                     <p>{contact.username}</p>
                   </div>
                 </a>
