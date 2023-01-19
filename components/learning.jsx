@@ -35,13 +35,6 @@ export default function Learning() {
           {learning.map((skill, i) => (
             <div className={styles.skill} key={i}>
               <div>
-                {/* <Image
-                  height="24"
-                  width="24"
-                  key={i}
-                  alt={skill.slug}
-                  src={`https://unpkg.com/simple-icons@v6/icons/${skill.slug}.svg`}
-                /> */}
                 <Icon name={skill.slug} key={i} />
                 <p>{skill.name}</p>
               </div>

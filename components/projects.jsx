@@ -276,14 +276,6 @@ export default function Projects() {
             <p>{project.description}</p>
             <div className={styles.stack}>
               {project.stack.map((tech, i) => (
-                // <Image
-                //   height="24"
-                //   width="24"
-                //   key={i}
-                //   alt={tech}
-                //   loading="eager"
-                //   src={`https://unpkg.com/simple-icons@v6/icons/${tech}.svg`}
-                // />
                 <Icon name={tech} key={i} />
                 // <></>
               ))}
@@ -302,14 +294,6 @@ export default function Projects() {
             </div>
           </div>
           <div className={styles.image}>
-            {/* <Image
-              src={project.image}
-              alt={project.name}
-              style={{
-                mixBlendMode: project.transparent ? "multiply" : "normal",
-              }}
-              className={styles.screenshot}
-            /> */}
             <img
               src={project.image}
               alt={project.name}

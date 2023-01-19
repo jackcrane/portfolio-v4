@@ -56,7 +56,7 @@ export default function Contact() {
                 </a>
               ) : (
                 <div>
-                  <Image
+                  <img
                     height="24"
                     width="24"
                     key={i}

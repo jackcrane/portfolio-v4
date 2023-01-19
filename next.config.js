@@ -2,7 +2,7 @@ module.exports = () => {
   return {
     images: {
       domains: ["unpkg.com"],
-      path: "",
+      path: "https://noop",
       loader: "imgix",
     },
   };
