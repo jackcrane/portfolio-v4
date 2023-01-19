@@ -8,9 +8,9 @@
   "dependencies": {
     "@icons-pack/react-simple-icons": "^4.6.1",
     "babel-runtime": "^6.26.0",
-    "next": "latest",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "12.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-typing-animation": "^1.6.2"
   },
   "devDependencies": {
