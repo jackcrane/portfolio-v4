@@ -48,16 +48,11 @@ export default function Projects() {
     },
     {
       name: "Ski Perfect North Slopes",
-      subtitle: "Active Project",
+      subtitle: "Retired Project",
       image: "/images/pns.png",
       description:
         "A mobile app for a local Ski Area, giving guests access to snow information, live photos, location information, and safety resources right at their fingertips.",
-      links: [
-        {
-          title: "Test Flight",
-          url: "https://testflight.apple.com/join/xlYPub3C",
-        },
-      ],
+      links: [],
       stack: [
         "react",
         "javascript",
